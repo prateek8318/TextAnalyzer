@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+    background-color: #220687; 
+    color: #fff; /* White text color */
+  }
+  
+  .dark a {
+   
+    color: #fff; /* White text color for links */
+  }
+  
+  .dark a:hover {
+    color: #fff; /* White text color for links on hover */
+  }
+  
+  .dark .bg-blue-600 {
+    background-color: #2f4f7f; /* Dark blue background color */
+  }
+  
+  .dark .bg-blue-900 {
+    background-color: #1a3c5a; /* Darker blue background color */
+  }
+  
+  .dark .hover\:bg-blue-700:hover {
+    background-color: #2f4f7f; /* Dark blue background color on hover */
+  }
+  
+  .dark .hover\:bg-blue-900:hover {
+    background-color: #1a3c5a; /* Darker blue background color on hover */
+  }
+  
+  .dark .text-gray-700 {
+    color: #ccc; /* Light gray text color */
+  }
+  
+  .dark .text-gray-300 {
+    color: #aaa; /* Dark gray text color */
+  }
+  
