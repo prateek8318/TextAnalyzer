@@ -18,6 +18,7 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
 
   const navItems = [
     { name: 'Analyzer', id: 'analyzer' },
+    { name: 'Resume Builder', id: 'resume' },
     { name: 'Home', id: 'home' }
   ];
 
@@ -37,9 +38,9 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
                 TA
               </div>
               <div>
-                <div className="headline-display text-lg font-bold text-[var(--foreground)]">TextAnalyzer</div>
+                <div className="headline-display text-lg font-bold text-[var(--foreground)]">TextAnalyzer Pro</div>
                 <div className="text-xs font-medium uppercase tracking-[0.24em] text-[var(--foreground-muted)]">
-                  Smart writing dashboard
+                  Smart tools for writing & career
                 </div>
               </div>
             </button>

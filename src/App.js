@@ -4,6 +4,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import TextAnalyzer from './pages/TextAnalyzer';
+import ResumeBuilder from './pages/ResumeBuilder';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('analyzer');
@@ -19,6 +20,8 @@ function App() {
       <main className="page-shell flex-grow">
         {currentPage === 'home' ? (
           <HomePage navigateToPage={navigateToPage} />
+        ) : currentPage === 'resume' ? (
+          <ResumeBuilder navigateToPage={navigateToPage} />
         ) : (
           <TextAnalyzer navigateToPage={navigateToPage} />
         )}
