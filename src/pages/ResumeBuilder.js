@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import Button from '../components/ui/Button';
 import Card, { CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/Card';
 import Badge from '../components/ui/Badge';
@@ -6,8 +6,6 @@ import Input from '../components/ui/Input';
 import { Textarea } from '../components/ui/Input';
 
 const ResumeBuilder = ({ navigateToPage }) => {
-  const resumeRef = useRef();
-  
   const [personalInfo, setPersonalInfo] = useState({
     fullName: '',
     email: '',
